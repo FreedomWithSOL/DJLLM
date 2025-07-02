@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LLM DJ - Infinite Girl Talk Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>LLM DJ 🎧</h1>
+    <p>Generate infinite Girl Talk-style mashups using AI.</p>
+    <input type="text" id="prompt" placeholder="Enter your vibe (e.g. '2000s rap over 90s grunge')" />
+    <button onclick="generateMashup()">Generate Mashup</button>
+    <div id="status"></div>
+    <audio id="player" controls style="display:none;"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+-------------------------
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #ff00cc;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#status {
+  margin-top: 20px;
+  font-style: italic;
+  color: #ccc;
+}
