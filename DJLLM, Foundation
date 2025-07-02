@@ -1,0 +1,9 @@
+llm-dj/
+├── public/
+│   └── mashups/
+│       ├── mash1.mp3
+│       ├── mash2.mp3
+│       └── mash3.mp3
+├── index.html
+├── style.css
+└── script.js
